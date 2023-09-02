@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: grey;
+  }
+  
+  .main {
+    text-align: center;
+  }
+  
+  h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .inpt{
+    padding: 30px;
+    border: 2px solid;
+  }
+
+  #searchResultContainer{
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  #res{
+    background-color: darkgrey;
+    padding: 10px;
+    border: 2px solid;
+  }
